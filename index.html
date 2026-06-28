@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho da Jennifer <3</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffeef2; /* Fundo rosa bem clarinho e fofo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(255, 182, 193, 0.4);
+            padding: 25px;
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            border: 2px solid #ffccd5;
+        }
+
+        h1 {
+            color: #ff6b8b; /* Rosa mais escurinho para o texto */
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .heart {
+            color: #ff477e;
+            animation: pulse 1.2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+            100% { transform: scale(1); }
+        }
+
+        .content-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+            margin-bottom: 20px;
+            background-color: #fff5f7;
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        .text-info {
+            flex: 1;
+            text-align: left;
+            color: #6c757d;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+
+        .text-info strong {
+            color: #ff6b8b;
+        }
+
+        /* Container do vídeo redondo e fofinho */
+        .video-container {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #ffb6c1;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Garante que o vídeo preencha o círculo perfeitamente */
+        }
+
+        .map-container {
+            border-radius: 15px;
+            overflow: hidden;
+            border: 2px solid #ffccd5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        iframe {
+            width: 100%;
+            height: 250px;
+            border: 0;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Trabalho da Jennifer <span class="heart">❤️</span></h1>
+        
+        <div class="content-row">
+            <div class="text-info">
+                O lugar que fica mais bonito só porque a <strong>Jennifer</strong> está lá! ✨
+            </div>
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="9e83476b9bf48d78efcb16a6ad54e5d4.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30699.82631860624!2d-52.2652758!3d-15.8839944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93656f4c279f0337%3A0x5ee510778287a9e8!2sPit%20lanche%20e%20pizzaria!5e0!3m2!1spt-BR!2sbr!4v1782689689151!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+</body>
+</html>
